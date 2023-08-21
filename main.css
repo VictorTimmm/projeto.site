@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+}
+
+body, input, textarea {
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px 0;
+    background: linear-gradient(90deg, rgb(47, 202, 0) 10%, rgb(255, 251, 0) 55%, rgb(255, 0, 0) 100%);
+    color: rgb(219, 218, 218);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header nav li a {
+    color: rgb(219, 218, 218);
+    text-decoration: none;
+}
+
+
+
+.brands-list img{
+    height: 300px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 5px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section {
+    color: rgb(255, 73, 28);
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color:rgb(255, 73, 28);
+}
+
+section p {
+    margin: 8px;
+}
+
+.store-font { 
+    margin-right: 32px;
+}
+
+.store-font img li {
+    height: 100px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+}
+
+form input,
+form textarea,
+form button {
+    background-color:aliceblue
+    border: none;
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height:180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    color:rgb(255, 73, 28);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: linear-gradient(90deg, rgb(47, 202, 0) 10%, rgb(255, 251, 0) 55%, rgb(255, 0, 0) 100%);
+}
+
+footer {
+    background: linear-gradient(90deg, rgb(47, 202, 0) 10%, rgb(255, 251, 0) 55%, rgb(255, 0, 0) 100%);
+    color: aliceblue;
+    font-family: 'Bungee', cursive;
+    padding: 10px 0;
+}
+
+section img {
+    height:700px;
+}
+
+#contact img {
+    height: 24px;
+}
